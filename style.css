@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 90%;
+}
+.navbar {
+    width: 90%;
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    gap: 30px;
+}
+nav a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+}
+.explorer-btn {
+    background-color: #2e7d32;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    border-radius: 6px;
+}
+.hero {
+    width: 90%;
+    height: 600px;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    border-radius: 20px;
+    background-image: url(images/rwanda.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.hero-content {
+    max-width: 600px;
+    color: white;
+}
+.hero-label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.hero h1 {
+    font-size: 64px;
+    line-height: 1.05;
+    margin-bottom: 25px;
+}
+.hero-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.hero-btn {
+    display: inline-block;
+    background-color: white;
+    color: #2e7d32;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 6px;
+
+    font-weight: bold;
+}
