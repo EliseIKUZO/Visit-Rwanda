@@ -40,6 +40,11 @@ nav a:hover {
     text-decoration: none;
     padding: 14px 20px;
     border-radius: 6px;
+    transition: 0.3s ease;
+}
+.explore-btn:hover {
+    background-color: #a6deaa;
+    transform: translateY(-3px);
 }
 .hero {
     width: 90%;
@@ -95,6 +100,12 @@ nav a:hover {
     border-radius: 6px;
 
     font-weight: bold;
+    transition: 0.3s ease;
+}
+.hero-btn:hover {
+    background-color: #2e7d32;
+    color: white;
+    transform: translateY(-3px);
 }
 .destinations {
     width: 90%;
