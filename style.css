@@ -74,3 +74,58 @@ nav a {
 
     font-weight: bold;
 }
+.destinations {
+    width: 90%;
+    margin: 100px auto;
+}
+.section-heading {
+text-align: center;
+margin-bottom: 50px;
+}
+.section-heading p {
+    color: #2e7d32;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.section-heading h2 {
+    font-size: 40px;
+}
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.destination-card {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    padding-bottom: 25px;
+}
+.destination-image {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+.destination-card h3 {
+    font-size: 22px;
+    margin: 20px 20px 10px;
+}
+.destination-card p {
+    margin: 0 20px;
+    line-height: 1.5;
+}
+.image-one {
+    background-image: url("images/volcanoes.jpg");
+}
+.image-two {
+    background-image: url("images/akagera.jpg");
+}
+.image-three {
+    background-image: url("images/kivu.jpg");
+}
+.destination-card {
+    transition: 0.3s ease;
+}
+.destination-card:hover {
+    transform: translateY(-8px);
+}
